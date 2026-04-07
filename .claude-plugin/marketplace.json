@@ -1,8 +1,20 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "yabwang-skills",
   "description": "个人使用的跨项目 Skills 仓库 - AI 工作流、博客更新、代码审查等",
-  "author": {
+  "owner": {
     "name": "yabwang",
-    "url": "https://github.com/yabwang"
-  }
+    "email": "yabwang@users.noreply.github.com"
+  },
+  "plugins": [
+    {
+      "name": "blog-updater",
+      "description": "自动更新博客内容，支持 AI 进展抓取、文章生成",
+      "author": {
+        "name": "yabwang"
+      },
+      "source": "./plugins/blog-updater",
+      "category": "productivity"
+    }
+  ]
 }
