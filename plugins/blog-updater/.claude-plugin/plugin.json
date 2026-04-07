@@ -1,0 +1,7 @@
+{
+  "name": "blog-updater",
+  "description": "自动更新博客内容，支持 AI 进展抓取、文章生成",
+  "author": {
+    "name": "yabwang"
+  }
+}
